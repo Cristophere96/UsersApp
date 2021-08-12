@@ -12,9 +12,18 @@
 		8081A8FD26C571E800ADC7FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8081A8FC26C571E800ADC7FB /* Assets.xcassets */; };
 		8081A90026C571E800ADC7FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8081A8FF26C571E800ADC7FB /* Preview Assets.xcassets */; };
 		8081A90226C571E800ADC7FB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081A90126C571E800ADC7FB /* Persistence.swift */; };
-		8081A90526C571E800ADC7FB /* Users.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8081A90326C571E800ADC7FB /* Users.xcdatamodeld */; };
 		8081A91026C571E900ADC7FB /* UsersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081A90F26C571E900ADC7FB /* UsersTests.swift */; };
 		8081A91B26C571E900ADC7FB /* UsersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081A91A26C571E900ADC7FB /* UsersUITests.swift */; };
+		8081A92C26C572D900ADC7FB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081A92B26C572D900ADC7FB /* HomeView.swift */; };
+		8081A92E26C5757D00ADC7FB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081A92D26C5757D00ADC7FB /* User.swift */; };
+		8081A93126C57E6A00ADC7FB /* Users.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8081A92F26C57E6A00ADC7FB /* Users.xcdatamodeld */; };
+		80F693A926C5837900E85DAA /* UserItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F693A826C5837900E85DAA /* UserItem.swift */; };
+		80F693AB26C586B800E85DAA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F693AA26C586B800E85DAA /* HomeViewModel.swift */; };
+		80F693AD26C5880400E85DAA /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F693AC26C5880400E85DAA /* LoadingView.swift */; };
+		80F693AF26C5BE5C00E85DAA /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F693AE26C5BE5C00E85DAA /* PostsView.swift */; };
+		80F693B126C5BE9100E85DAA /* PostUserOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F693B026C5BE9100E85DAA /* PostUserOwner.swift */; };
+		80F693B326C5C08B00E85DAA /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F693B226C5C08B00E85DAA /* PostsViewModel.swift */; };
+		80F693B526C5C11B00E85DAA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F693B426C5C11B00E85DAA /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +50,6 @@
 		8081A8FC26C571E800ADC7FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8081A8FF26C571E800ADC7FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8081A90126C571E800ADC7FB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		8081A90426C571E800ADC7FB /* Users.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Users.xcdatamodel; sourceTree = "<group>"; };
 		8081A90626C571E800ADC7FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8081A90B26C571E900ADC7FB /* UsersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8081A90F26C571E900ADC7FB /* UsersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTests.swift; sourceTree = "<group>"; };
@@ -49,6 +57,16 @@
 		8081A91626C571E900ADC7FB /* UsersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8081A91A26C571E900ADC7FB /* UsersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersUITests.swift; sourceTree = "<group>"; };
 		8081A91C26C571E900ADC7FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8081A92B26C572D900ADC7FB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8081A92D26C5757D00ADC7FB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8081A93026C57E6A00ADC7FB /* Users.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Users.xcdatamodel; sourceTree = "<group>"; };
+		80F693A826C5837900E85DAA /* UserItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItem.swift; sourceTree = "<group>"; };
+		80F693AA26C586B800E85DAA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		80F693AC26C5880400E85DAA /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		80F693AE26C5BE5C00E85DAA /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
+		80F693B026C5BE9100E85DAA /* PostUserOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostUserOwner.swift; sourceTree = "<group>"; };
+		80F693B226C5C08B00E85DAA /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
+		80F693B426C5C11B00E85DAA /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +117,15 @@
 		8081A8F726C571E700ADC7FB /* Users */ = {
 			isa = PBXGroup;
 			children = (
+				8081A92A26C572C700ADC7FB /* ViewModels */,
+				8081A92926C572C000ADC7FB /* Views */,
+				8081A92826C572BA00ADC7FB /* Models */,
 				8081A8F826C571E700ADC7FB /* UsersApp.swift */,
 				8081A8FA26C571E700ADC7FB /* ContentView.swift */,
 				8081A8FC26C571E800ADC7FB /* Assets.xcassets */,
 				8081A90126C571E800ADC7FB /* Persistence.swift */,
+				8081A92F26C57E6A00ADC7FB /* Users.xcdatamodeld */,
 				8081A90626C571E800ADC7FB /* Info.plist */,
-				8081A90326C571E800ADC7FB /* Users.xcdatamodeld */,
 				8081A8FE26C571E800ADC7FB /* Preview Content */,
 			);
 			path = Users;
@@ -134,6 +155,36 @@
 				8081A91C26C571E900ADC7FB /* Info.plist */,
 			);
 			path = UsersUITests;
+			sourceTree = "<group>";
+		};
+		8081A92826C572BA00ADC7FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8081A92D26C5757D00ADC7FB /* User.swift */,
+				80F693B426C5C11B00E85DAA /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8081A92926C572C000ADC7FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8081A92B26C572D900ADC7FB /* HomeView.swift */,
+				80F693A826C5837900E85DAA /* UserItem.swift */,
+				80F693AC26C5880400E85DAA /* LoadingView.swift */,
+				80F693AE26C5BE5C00E85DAA /* PostsView.swift */,
+				80F693B026C5BE9100E85DAA /* PostUserOwner.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8081A92A26C572C700ADC7FB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				80F693AA26C586B800E85DAA /* HomeViewModel.swift */,
+				80F693B226C5C08B00E85DAA /* PostsViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,10 +316,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8081A90526C571E800ADC7FB /* Users.xcdatamodeld in Sources */,
 				8081A90226C571E800ADC7FB /* Persistence.swift in Sources */,
+				8081A92E26C5757D00ADC7FB /* User.swift in Sources */,
 				8081A8FB26C571E700ADC7FB /* ContentView.swift in Sources */,
+				80F693AB26C586B800E85DAA /* HomeViewModel.swift in Sources */,
+				8081A92C26C572D900ADC7FB /* HomeView.swift in Sources */,
+				80F693B526C5C11B00E85DAA /* Post.swift in Sources */,
+				80F693B126C5BE9100E85DAA /* PostUserOwner.swift in Sources */,
+				80F693A926C5837900E85DAA /* UserItem.swift in Sources */,
+				8081A93126C57E6A00ADC7FB /* Users.xcdatamodeld in Sources */,
+				80F693B326C5C08B00E85DAA /* PostsViewModel.swift in Sources */,
 				8081A8F926C571E700ADC7FB /* UsersApp.swift in Sources */,
+				80F693AF26C5BE5C00E85DAA /* PostsView.swift in Sources */,
+				80F693AD26C5880400E85DAA /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,12 +650,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8081A90326C571E800ADC7FB /* Users.xcdatamodeld */ = {
+		8081A92F26C57E6A00ADC7FB /* Users.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				8081A90426C571E800ADC7FB /* Users.xcdatamodel */,
+				8081A93026C57E6A00ADC7FB /* Users.xcdatamodel */,
 			);
-			currentVersion = 8081A90426C571E800ADC7FB /* Users.xcdatamodel */;
+			currentVersion = 8081A93026C57E6A00ADC7FB /* Users.xcdatamodel */;
 			path = Users.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
